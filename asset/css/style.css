@@ -981,6 +981,23 @@ footer p {
         flex-direction:column;
     }
 
+    .project_wrap .project_content .project_text h3 {
+        font-size:3rem;
+    }
+
+    .project_wrap .project_content .project_text h3 span {
+        font-size:5rem;
+    }
+
+    .project_wrap .project_content .project_text p {
+        font-size:2rem;
+    }
+
+    .project_wrap .project_content .project_text .project_move {
+        font-size:2rem;
+        margin-top:1rem;
+    }
+
     .project_wrap h2 {
         font-size:8.5vw;
     }
