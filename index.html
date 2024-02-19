@@ -541,8 +541,6 @@
             gsap.from(aboutText, {
                 scrollTrigger: {
                     trigger: work,
-                    start: "top center",
-                    end: "bottom",
                 },
                     yPercent: 100,
                     duration: 1,
@@ -551,9 +549,7 @@
 
             gsap.from(".r_what .letter_font", {
                 scrollTrigger: {
-                    trigger: work,
-                    start: "60%",
-                    end: "bottom",
+                    trigger: rwhat,
                 },
                     yPercent: -100,
                 }
@@ -561,9 +557,7 @@
 
             gsap.from(rwhat, {
                 scrollTrigger: {
-                    trigger: work,
-                    start: "70%",
-                    end: "bottom",
+                    trigger: rwhat,
                 },
                     yPercent: 10,
                     duration: 1,

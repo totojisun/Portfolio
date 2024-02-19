@@ -836,6 +836,10 @@ footer p {
         min-width:16vw;
     }
 
+    .bottom_about_box .work_table {
+        order:2;
+    }
+
     .r_what .what_content {
         display:flex;
         gap:10vw;
@@ -929,7 +933,7 @@ footer p {
 
     .about_wrap .about_box .r_about{
         top:2vw;
-        height:82vw;
+        height:64vw;
     }
 
     .about_wrap .about_box .r_about .about_img01 {
@@ -965,16 +969,16 @@ footer p {
         flex-direction:column;
     }
 
+    .bottom_about_box .r_what {
+        padding-top:9rem;
+    }
+
     .bottom_about_box .r_what .skills li .skill_text {
         min-width:30vw;
     }
 
     .bottom_about_box .work_table .work_intro {
         margin:3.5rem 2rem;
-    }
-
-    .project_wrap .pin_title {
-        padding:10vw 0;
     }
 
     .project_wrap .project_content {
