@@ -472,7 +472,7 @@ main {
 }
 
 .bottom_about_box .r_what .r_sub_title .sub_title_icon img{
-    width:3.3rem;
+    width:3rem;
     vertical-align:bottom;
     margin-left:.8rem;
 }
@@ -1036,6 +1036,10 @@ footer p {
     .contact_wrap .contact_box_02 h1 {
         font-size: 9vw;
         margin-top:3rem;
+    }
+
+    .contact_wrap .contact_box_01 .r_text {
+        font-size: 3.5rem;
     }
 
     .contact_wrap .contact_box_02 .mail_icon svg {
