@@ -414,7 +414,7 @@
             scrollTrigger: {
                 trigger: ".about_wrap",
                 start: "top center",
-                end: "bottom bottom",
+                end: "bottom bottom"
             },
         }
     );
@@ -445,7 +445,7 @@
                     scrollTrigger: {
                     trigger: ".bottom_about_box",
                     start: "top center",
-                    end: "bottom",
+                    end: "bottom"
                 },
                 
             },1
@@ -462,11 +462,11 @@
                     trigger: "#project_01",
                     start: "top 35%",
                     pin: true,
-                    end: "bottom",
+                    end: "bottom"
                 },
                     opacity: 0,
                     x:50,
-                    duration: 1,
+                    duration: 1
                 }
             ),
 
@@ -475,11 +475,11 @@
                     trigger: "#project_02",
                     start: "top 35%",
                     pin: true,
-                    end: "bottom",
+                    end: "bottom"
                 },
                     opacity: 0,
                     x:-50,
-                    duration: 1,
+                    duration: 1
                 }
             ),
 
@@ -488,11 +488,11 @@
                     trigger: "#project_03",
                     start: "top 35%",
                     pin: true,
-                    end: "bottom",
+                    end: "bottom"
                 },
                     opacity: 0,
                     x:50,
-                    duration: 1,
+                    duration: 1
                 }
             );
                 
@@ -503,11 +503,11 @@
                 scrollTrigger: {
                     trigger: "#project_01",
                     start: "top center",
-                    end: "bottom",
+                    end: "bottom"
                 },
                     yPercent: 10,
                     duration: 1,
-                    opacity:0,
+                    opacity:0
                 }
             ),
 
@@ -515,11 +515,11 @@
                 scrollTrigger: {
                     trigger: "#project_02",
                     start: "top center",
-                    end: "bottom",
+                    end: "bottom"
                 },
                     yPercent: 10,
                     duration: 1,
-                    opacity:0,
+                    opacity:0
                 }
             ),
 
@@ -527,11 +527,11 @@
                 scrollTrigger: {
                     trigger: "#project_03",
                     start: "top center",
-                    end: "bottom",
+                    end: "bottom"
                 },
                     yPercent: 10,
                     duration: 1,
-                    opacity:0,
+                    opacity:0
                 }
             );
         },
@@ -541,29 +541,22 @@
             gsap.from(aboutText, {
                 scrollTrigger: {
                     trigger: work,
+                    start:"-50%",
+                    end:"bottom bottom"
                 },
                     yPercent: 100,
-                    duration: 1,
-                }
-            ),
-
-            gsap.from(".r_what .letter_font", {
-                scrollTrigger: {
-                    trigger: rwhat,
-                },
-                    yPercent: -100,
-                }
-            ),
-
-            gsap.from(rwhat, {
-                scrollTrigger: {
-                    trigger: rwhat,
-                },
-                    yPercent: 10,
-                    duration: 1,
-                    opacity:0,
-                }
+                    duration: 1
+                },1
             );
+
+            const mbab = gsap.timeline({
+                    scrollTrigger: {
+                    trigger: rwhat
+                },
+            },1
+            )
+            mbab.from(".r_what .letter_font",{yPercent: -100})
+                .from(rwhat,{yPercent: 10,duration: 1,opacity:0});
 
     },
     
@@ -576,11 +569,11 @@
         scrollTrigger: {
             trigger: ".contact_wrap",
             start: "top center",
-            end: "bottom",
+            end: "bottom"
         },
             yPercent: 50,
             duration: 2,
-            opacity:0,
+            opacity:0
         },1
     );
 
@@ -588,10 +581,10 @@
         scrollTrigger: {
             trigger: ".contact_wrap",
             start: "top center",
-            end: "bottom",
+            end: "bottom"
         },
             yPercent: 70,
-            duration: 2,
+            duration: 2
         },1
     );
 
