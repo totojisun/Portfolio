@@ -298,9 +298,9 @@
 
         <section id="section3" class="project_wrap">
             <div class="pin_title">
-                <h2>Web Solution Project</h2>
+                <h2>Solutions & Redesign</h2>
                 <div class="title_line"></div>
-                <p>퍼블리싱을 진행한 대표적인 웹솔루션 프로젝트들 입니다.</p>
+                <p>퍼블리싱을 진행한 3가지 솔루션과<br>디자인과 코딩까지 작업한 반응형 리디자인 작업물입니다.</p>
             </div>
             <div>
                 <div id="project_01" class="project_content">
@@ -308,7 +308,7 @@
                         <div class="thum" style="background-image: url('asset/images/project01_thum.png');"></div>
                     </div>
                     <div class="project_text">
-                        <h3><span>01</span>블로그 체험단 사이트</h3>
+                        <h3><span class="num">01</span>블로그 체험단 사이트</h3>
                         <p>블로그 마케팅 전문 중개 웹솔루션</p>
                         <p class="m_none">메인, 서브, 카테고리, 검색, 상세페이지</p>
                         <p class="m_none">PC/모바일 전반적인 퍼블리싱 작업을 진행하였습니다.</p>
@@ -320,7 +320,7 @@
                 </div>
                 <div id="project_02" class="project_content sb_con">
                     <div class="project_text">
-                        <h3><span>02</span>정보 공유 사이트</h3>
+                        <h3><span class="num">02</span>정보 공유 사이트</h3>
                         <p>카테고리별 정보 공유 웹솔루션</p>
                         <p class="m_none">메인, 서브, 카테고리, 검색, 상세페이지</p>
                         <p class="m_none">PC/모바일 전반적인 퍼블리싱 작업을 진행하였습니다.</p>
@@ -338,7 +338,7 @@
                         <div class="thum" style="background-image: url('asset/images/project03_thum.png');"></div>
                     </div>
                     <div class="project_text">
-                        <h3><span>03</span>자동차 덴트 사이트</h3>
+                        <h3><span class="num">03</span>자동차 덴트 사이트</h3>
                         <p>자동차 수리 견적상담 전문 웹솔루션</p>
                         <p class="m_none">메인, 서브, 카테고리, 검색, 상세페이지</p>
                         <p class="m_none">PC 전반적인 퍼블리싱 작업을 진행하였습니다.</p>
@@ -346,6 +346,22 @@
                         <a class="project_move hvr-rectangle-out" href="http://dent.cgimall.co.kr/" target="_blank">
                             웹사이트 바로가기
                         </a>
+                    </div>
+                </div>
+                <div id="project_04" class="project_content sb_con">
+                    <div class="project_text">
+                        <h3><span class="num">04</span>시드물 리디자인 사이트</h3>
+                        <p>자연 주의 더마코스메틱 브랜드 쇼핑몰</p>
+                        <p class="m_none">기존 사이트에서 컨텐츠를 단순화, 상품에 눈이 갈 수 있도록 메인페이지 리디자인</p>
+                        <p class="m_none">개인 프로젝트 디자인 / 퍼블리싱 100%</p>
+                        <p>작업기간<span class="text_line">|</span>디자인 3일 · 반응형 퍼블리싱 7일</p>
+                        <a class="project_move hvr-rectangle-out" href="project/sidmool/index.html" target="_blank">
+                            웹사이트 바로가기
+                        </a>
+                    </div>
+                    <div class="project_thum">
+                        <div class="thum" style="background-image: url('asset/images/project04_thum.png');"></div>
+                        <span class="point">반응형</span>
                     </div>
                 </div>
             </div>
@@ -435,6 +451,7 @@
     const project01 = document.querySelector("#project_01 .project_text");
     const project02 = document.querySelector("#project_02 .project_text");
     const project03 = document.querySelector("#project_03 .project_text");
+    const project04 = document.querySelector("#project_04 .project_text");
     const aboutText = document.querySelectorAll(".bottom_about_box .work_table .work_intro .text");
     const work = document.querySelector(".bottom_about_box .work_table");
 
@@ -494,6 +511,19 @@
                     x:50,
                     duration: 1
                 }
+            ),
+
+            gsap.from(project04, {
+                scrollTrigger: {
+                    trigger: "#project_04",
+                    start: "top 35%",
+                    pin: true,
+                    end: "bottom"
+                },
+                    opacity: 0,
+                    x:50,
+                    duration: 1
+                }
             );
                 
         },
@@ -526,6 +556,18 @@
             gsap.from(project03, {
                 scrollTrigger: {
                     trigger: "#project_03",
+                    start: "top center",
+                    end: "bottom"
+                },
+                    yPercent: 10,
+                    duration: 1,
+                    opacity:0
+                }
+            ),
+
+            gsap.from(project04, {
+                scrollTrigger: {
+                    trigger: "#project_04",
                     start: "top center",
                     end: "bottom"
                 },
