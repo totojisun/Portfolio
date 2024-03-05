@@ -112,11 +112,22 @@ table {
 
 /* 헤더 */
 
-header nav {
+header {
+	height:10.4rem;
+}
+
+.header_wrap {
+	width:100%;
+	position: fixed;
+	background: #fff;
+	z-index: 9999;
+}
+
+header .nav_con{
     display: flex;
     justify-content: space-between;
 	align-items: center;
-	padding:3rem 0;
+	padding:1rem 0;
 }
 
 .nav_links {
@@ -1183,12 +1194,12 @@ footer {
   
 
 @media screen and (max-width: 1350px) {
-	header nav{
-		padding:3rem 2.4rem;
+	#slider {
+		padding:0 2rem;
 	}
 
-	#slider {
-		padding:2rem;
+	header .nav_con {
+		padding:1rem 2rem;
 	}
 
 	main, .footer_top, .footer_wrap{
@@ -1197,7 +1208,7 @@ footer {
 }
 
 @media screen and (min-width: 1320px) {
-	header, #slider, main, .footer_top ,.footer_wrap{
+	nav, #slider, main, .footer_top ,.footer_wrap{
 		max-width: 132rem;
 		margin:0 auto;
 	}
@@ -1223,10 +1234,11 @@ footer {
 
 	header {
 		width:100%;
+		height: 75px;
 	}
 
-	header nav {
-		padding:2.4rem;
+	header .nav_con {
+		padding:2rem;
 	}
 	
 	.nav_menu {
@@ -1302,7 +1314,6 @@ footer {
 }
 
 @media screen and (max-width: 900px) {
-
 	.slide_box .slide01 {
 		background-position: bottom 20% right 20%;
 	}
@@ -1387,6 +1398,26 @@ footer {
 
 	html {
 		font-size: 52%;
+	}
+
+	header {
+		height: 71px;
+	}
+
+	.nav_logo img{
+		width:14.5rem;
+	}
+
+	.nav_links .nav_icons .mp_icon {
+		margin-right:1.8rem;
+	}
+
+	.mp_icon img {
+		width:2.2rem;
+	}
+
+	.cart_icon img {
+		width:2.4rem;
 	}
 
 	.slide_box .slide {
@@ -1513,11 +1544,11 @@ footer {
 
 @media screen and (max-width:450px) {
 	.tab_cont .best_md .img_area {
-		max-height: 23rem;
+		max-height: 20rem;
 	}
 
 	.tab_cont .best_md .img_area img {
-		max-width:19.5rem;
+		max-width:18rem;
 	}
 
 	.review_box .review_text dl h3 {
@@ -1537,8 +1568,8 @@ footer {
 	}
 
 	.line_content .line_box .line_img {
-		background-size: 9rem;
-    	height: 23rem;
+		background-size: 7rem;
+    	height: 19rem;
 	}
 
 	.line_content .line_box .title_area a {
