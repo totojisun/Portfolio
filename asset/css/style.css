@@ -555,7 +555,7 @@ main {
     padding-bottom:10rem;
 }
 
-.project_wrap #project_03.project_content {
+.project_wrap #project_04.project_content {
     padding-bottom:0;
 }
 
@@ -570,13 +570,30 @@ main {
     margin-bottom:2.3vw;
 }
 
-.project_wrap .project_content .project_text h3 span{
+.project_wrap .project_content .project_text h3 .num{
     font-family: "raleway";
     font-size:5.5rem;
     color:#93C3DE;
     letter-spacing: -.5rem;
     font-weight: 400;
     margin-right:3.2rem;
+}
+
+.project_wrap .project_thum {
+    position: relative;
+}
+
+.project_wrap .project_content .point {
+    position:absolute;
+    bottom:6%;
+    left:5%;
+    display:inline-block;
+    font-size:2.7rem;
+    letter-spacing: -.075rem;
+    color:#fff;
+    background:#93C3DE;
+    border-radius: 2rem;
+    padding:1rem 2rem;
 }
 
 .project_wrap .project_content .project_text p{
@@ -592,7 +609,7 @@ main {
 }
 
 .project_wrap .project_content .project_thum {
-    width:40vw;
+    min-width:40vw;
     height:25vw;
     border:1px solid #9199a2;
     border-radius:3.5rem;
@@ -607,7 +624,7 @@ main {
     background-size: 100% auto;
     overflow: hidden;
     cursor: pointer;
-  }
+}
   
 .project_wrap .project_content .project_thum:hover .thum{
     background-position: 0 100%;
@@ -788,6 +805,10 @@ footer p {
     .project_wrap .title_line {
         width:10%;
     }
+
+    .project_wrap .project_content .project_thum {
+        height:30vw;
+    }
 }
 
 @media(max-width: 950px) {
@@ -878,7 +899,7 @@ footer p {
     }
 
     .project_wrap .pin_title p, .project_wrap .pin_title .title_line{
-        display: none;
+        display:none;
     }
 
     
@@ -888,6 +909,14 @@ footer p {
 
     .contact_wrap {
         padding-top:15rem;
+    }
+
+    .project_wrap .project_content .project_text h3 {
+        font-size:3.3rem;
+    }
+
+    .project_wrap .project_content .project_text h3 .num {
+        font-size:5rem;
     }
 
 }
@@ -989,7 +1018,7 @@ footer p {
         font-size:3rem;
     }
 
-    .project_wrap .project_content .project_text h3 span {
+    .project_wrap .project_content .project_text h3 .num {
         font-size:5rem;
     }
 
@@ -1052,6 +1081,12 @@ footer p {
 
     .contact_wrap .contact_box_02 .contact_arrow {
         display: none;
+    }
+
+    .project_wrap .project_content .project_text h3 .point {
+        vertical-align: text-bottom;
+        font-size:2.2rem;
+        margin:0 0 0 1.5rem;
     }
     
 }
