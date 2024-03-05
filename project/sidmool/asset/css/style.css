@@ -130,6 +130,10 @@ header .nav_con{
 	padding:1rem 0;
 }
 
+.nav_logo img {
+	width:16rem;
+}
+
 .nav_links {
 	display: flex;
 	align-items: center;
@@ -158,7 +162,11 @@ header .nav_con{
     padding-top: 0.6rem;
 }
 
-.nav_links .nav_icons .mp_icon{
+.nav_links .nav_icons img{
+	width:2.4rem;
+}
+
+.mp_icon {
 	margin-right:2.4rem;
 }
 
@@ -370,12 +378,20 @@ header .nav_con{
 	padding:0 1.5rem 1rem 0;
 }
 
+.menu_search_area button img{
+	width:2.4rem;
+}
+
 .menu_search_area input {
 	width:calc(100% - 50px);
 	line-height: 6rem;
 	height:6rem;
 	font-size:2rem;
 	letter-spacing:-.05rem;
+}
+
+.menu_close img {
+	width:2rem;
 }
 
 .menu_con > ul {
@@ -400,12 +416,18 @@ header .nav_con{
 	transition: .3s;
 }
 
+.menu_con > ul .menu_more > a, .menu_con > ul .menu_more.active > a {
+	background-size: 1.6rem;
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
 .menu_con > ul .menu_more > a{
-	background:url(../images/menu_open_arrow.png) no-repeat right center;
+	background-image:url(../images/menu_open_arrow.png);
 }
 
 .menu_con > ul .menu_more.active > a {
-	background:url(../images/menu_close_arrow.png) no-repeat right center;
+	background-image:url(../images/menu_close_arrow.png);
 }
 
 .menu_con > ul > li > ul > li {
@@ -1428,12 +1450,8 @@ footer {
 		margin-right:1.8rem;
 	}
 
-	.mp_icon img {
+	.nav_links .nav_icons img{
 		width:2.1rem;
-	}
-
-	.cart_icon img {
-		width:2.3rem;
 	}
 
 	.slide_box .slide {
