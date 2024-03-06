@@ -1318,7 +1318,11 @@ footer {
 	}
 
 	.review_box .review_text {
-		margin-top:3rem;
+		margin-top:2rem;
+	}
+
+	.review_box .review_text dd {
+		-webkit-line-clamp:3;
 	}
 
 	.line_content .line_box .line_img {
@@ -1438,7 +1442,7 @@ footer {
 	}
 
 	section {
-		margin-top: 7rem;
+		margin-top: 9rem;
 	}
 
 	.nav_toggleBtn svg {
@@ -1467,23 +1471,29 @@ footer {
 	}
 
 	.slide_box .slide .left_box h1 {
-		font-size:2.6rem;
+		font-size:2.3rem;
 		letter-spacing:-.075rem;
 	}
 
 	.slide_box .slide .left_box h2 {
-		font-size:2.2rem;
+		font-size:1.8rem;
 		letter-spacing:-.05rem;
 		line-height: 1.5;
 		margin-top:2rem;
 	}
 
 	.slide_box .slide .left_box p {
+		font-size:1.7rem;
+	}
+
+	.slide_box .slide .left_box .slide_moveBtn {
 		font-size:1.8rem;
+		padding:1.3rem 2rem;
+		margin-top:4rem;
 	}
 
 	.slide_box .slide01 {
-		background-size:25rem;
+		background-size:23rem;
 		background-position: bottom 15% right 5%;
 	}
 
@@ -1493,7 +1503,7 @@ footer {
 	}
 
 	.slide_box .slide03 {
-		background-size:28rem;
+		background-size:25rem;
 		background-position: bottom 5% right 5%;
 	}
 
@@ -1541,7 +1551,7 @@ footer {
 	}
 
 	.review_box .review_more svg {
-		max-width: 10vw;
+		max-width: 9vw;
 	}
 
 	.middle_banner .banner_box:last-child {
@@ -1603,12 +1613,25 @@ footer {
 		max-width:18rem;
 	}
 
+	.review_box .review_star img {
+		width:11rem;
+	}
+
 	.review_box .review_text dl h3 {
-		font-size:2.2rem;
+		font-size:1.8rem;
+	}
+
+	.review_box .review_text dl p {
+		font-size:1.6rem;
+	}
+
+	.review_box .review_text dd {
+		margin-bottom:1rem;
+		font-size:1.4rem;
 	}
 
 	.review_box .review_text {
-		margin-top:1rem;
+		margin-top:.5rem;
 	}
 
 	.line_content .line_box {
