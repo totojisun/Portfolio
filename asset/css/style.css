@@ -1124,10 +1124,10 @@ footer p {
 
 @-webkit-keyframes line_move{
     0% {
-        -webkit-width:0;
+        width:0;
     }
     100% {
-        -webkit-width:100%;
+        width:100%;
     }
 }
 
