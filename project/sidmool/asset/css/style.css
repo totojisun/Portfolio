@@ -1462,8 +1462,8 @@ footer {
 	}
 
 	.slide_box .slide {
-		padding:6rem 7vw 0;
-		height:44.5rem;
+		padding:5rem 7vw 0;
+		height:41rem;
 	}
 
 	.slide_box .slick-dots {
@@ -1611,6 +1611,10 @@ footer {
 
 	.tab_cont .best_md .img_area img {
 		max-width:18rem;
+	}
+
+	.middle_banner > div {
+		flex-direction: column;
 	}
 
 	.review_box .review_star img {
