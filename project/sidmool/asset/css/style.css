@@ -1438,7 +1438,7 @@ footer {
 	}
 
 	header {
-		height: 51px;
+		height: 55px;
 	}
 
 	section {
@@ -1463,7 +1463,7 @@ footer {
 
 	.slide_box .slide {
 		padding:5rem 7vw 0;
-		height:41rem;
+		height:40rem;
 	}
 
 	.slide_box .slick-dots {
@@ -1471,7 +1471,7 @@ footer {
 	}
 
 	.slide_box .slide .left_box h1 {
-		font-size:2.3rem;
+		font-size:2.5rem;
 		letter-spacing:-.075rem;
 	}
 
@@ -1504,16 +1504,16 @@ footer {
 
 	.slide_box .slide03 {
 		background-size:25rem;
-		background-position: bottom 5% right 5%;
+		background-position: bottom 5% right;
 	}
 
 	.con_title {
-		font-size:2.8rem;
+		font-size:2.5rem;
 	}
 
 	.new_content .md_area .price_area .sale {
 		right:0;
-		font-size:2.7rem;
+		font-size:2.2rem;
 	}
 
 	.new_content .md_area .slick-prev, .new_content .md_area .slick-next {
@@ -1527,7 +1527,7 @@ footer {
 	}
 
 	.tab_menu .tab_btn li span {
-		font-size: 2.2rem;
+		font-size: 2rem;
 	}
 
 	.tab_btn {
@@ -1536,6 +1536,22 @@ footer {
 
 	.tab_menu .tab_btn ul {
 		width:max-content;
+	}
+
+	.tab_cont .best_md .text_area .price_area {
+		margin-top:2rem;
+	}
+
+	.text_area a {
+		font-size:1.8rem;
+	}
+
+	.new_content .md_area .text_area p {
+		font-size:1.8rem;
+	}
+
+	.price {
+		font-size:2rem;
 	}
 
 	.review_box .img_area {
@@ -1613,12 +1629,8 @@ footer {
 		max-width:18rem;
 	}
 
-	.middle_banner > div {
-		flex-direction: column;
-	}
-
 	.review_box .review_star img {
-		width:11rem;
+		width:10rem;
 	}
 
 	.review_box .review_text dl h3 {
@@ -1630,7 +1642,7 @@ footer {
 	}
 
 	.review_box .review_text dd {
-		margin-bottom:1rem;
+		margin-bottom:1.2rem;
 		font-size:1.4rem;
 	}
 
@@ -1647,8 +1659,10 @@ footer {
 	}
 
 	.line_content .line_box .line_img {
-		background-size: 7rem;
-    	height: 19rem;
+		min-width:35%;
+		flex-basis: 35%;
+		background-size: 6rem;
+    	height: 16rem;
 	}
 
 	.line_content .line_box .title_area a {
