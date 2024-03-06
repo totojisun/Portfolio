@@ -403,7 +403,7 @@ header .nav_con{
 }
 
 .menu_con > ul > li {
-	padding:3rem 0;
+	padding:2.5rem 0;
 }
 
 .menu_con > ul > li > a {
@@ -918,7 +918,7 @@ section {
 
 .middle_banner > div{
 	display: flex;
-	gap:2rem;
+	gap:1rem;
 }
 
 .middle_banner .banner_box {
@@ -1321,10 +1321,6 @@ footer {
 		margin-top:3rem;
 	}
 
-	.review_box .review_text dd {
-		-webkit-line-clamp:2;
-	}
-
 	.line_content .line_box .line_img {
 		background-size:8rem;
 	}
@@ -1463,7 +1459,7 @@ footer {
 
 	.slide_box .slide {
 		padding:6rem 7vw 0;
-		height:48.5rem;
+		height:44.5rem;
 	}
 
 	.slide_box .slick-dots {
@@ -1471,15 +1467,19 @@ footer {
 	}
 
 	.slide_box .slide .left_box h1 {
-		font-size:2.8rem;
-		letter-spacing:-.05rem;
+		font-size:2.6rem;
+		letter-spacing:-.075rem;
 	}
 
 	.slide_box .slide .left_box h2 {
-		font-size:2.3rem;
+		font-size:2.2rem;
 		letter-spacing:-.05rem;
 		line-height: 1.5;
 		margin-top:2rem;
+	}
+
+	.slide_box .slide .left_box p {
+		font-size:1.8rem;
 	}
 
 	.slide_box .slide01 {
@@ -1488,7 +1488,7 @@ footer {
 	}
 
 	.slide_box .slide02 {
-		background-size:14rem;
+		background-size:13rem;
 		background-position: bottom right 15%;
 	}
 
