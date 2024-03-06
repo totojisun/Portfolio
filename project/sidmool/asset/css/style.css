@@ -162,6 +162,10 @@ header .nav_con{
     padding-top: 0.6rem;
 }
 
+.nav_links .search_area button img {
+	width:1.8rem;
+}
+
 .nav_links .nav_icons img{
 	width:2.4rem;
 }
@@ -363,7 +367,7 @@ header .nav_con{
 }
 
 .join_area a{
-	font-size:2.2rem;
+	font-size:2rem;
 	letter-spacing: -.1rem;
 	color:#777777
 }
@@ -403,7 +407,7 @@ header .nav_con{
 }
 
 .menu_con > ul > li > a {
-	font-size:2.4rem;
+	font-size:2rem;
 	letter-spacing: -.075rem;
 	display: block;
 }
@@ -431,7 +435,7 @@ header .nav_con{
 }
 
 .menu_con > ul > li > ul > li {
-	padding:2rem;
+	padding:1.7rem;
 }
 
 .menu_con > ul > li.active > ul{
@@ -442,7 +446,7 @@ header .nav_con{
 }
 
 .menu_con > ul > li > ul > li a{
-	font-size:2rem;
+	font-size:1.8rem;
 	color:#777777;
 }
 
@@ -548,7 +552,6 @@ header .nav_con{
 	width:2rem;
 	margin-left:.5rem;
 	display:inline-block;
-	vertical-align: bottom;
 }
 
 .slide_box .slide01 {
@@ -1144,8 +1147,12 @@ footer {
 
 .sns_content {
 	display: flex;
-	gap:1.3rem;
+	gap:1.2rem;
 	margin:4rem 0;
+}
+
+.sns_content img {
+	width:3rem;
 }
 
 .footer_end {
@@ -1501,6 +1508,8 @@ footer {
 
 	.new_content .md_area .slick-prev, .new_content .md_area .slick-next {
 		top:-5rem;
+		width:1.2rem;
+		background-size: 1.2rem;
 	}
 
 	.new_content .md_area .slick-prev {
@@ -1535,8 +1544,8 @@ footer {
 		max-width: 10vw;
 	}
 
-	.middle_banner > div {
-		flex-direction: column;
+	.middle_banner .banner_box:last-child {
+		display: none;
 	}
 
 	.middle_banner .banner_box img {
@@ -1554,15 +1563,15 @@ footer {
 	}
 
 	.campaign_banner {
-		min-height: 34rem;
+		min-height: 30rem;
 	}
 
 	.campaign_banner .top_text h4{
-		font-size:4rem;
+		font-size:3rem;
 	}
 
 	.campaign_banner .top_text p{
-		font-size:2rem;
+		font-size:1.7rem;
 	}
 
 	.footer_top ul li a {
