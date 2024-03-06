@@ -918,7 +918,7 @@ section {
 
 .middle_banner > div{
 	display: flex;
-	gap:1rem;
+	gap:2rem;
 }
 
 .middle_banner .banner_box {
@@ -1568,6 +1568,10 @@ footer {
 
 	.review_box .review_more svg {
 		max-width: 9vw;
+	}
+
+	.middle_banner > div{
+		gap:1rem;
 	}
 
 	.middle_banner .banner_box:last-child {
