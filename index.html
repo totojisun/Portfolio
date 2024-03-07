@@ -39,7 +39,7 @@
                 <h1 class="intro_title">
                     I Want To Make A <br>
                     <span>Better Web.
-                        <div class="line"></div>
+                        <span class="line"></span>
                     </span>
                 </h1>
             </div>
@@ -71,10 +71,10 @@
         </section>
 
         <section id="section2" class="about_wrap">
-            <h2 class="letter_font">
+            <div class="letter_font">
                 <p>Hello!</p>
                 <p>I’m JISUN</p>
-            </h2>
+            </div>
             <div class="about_box">
                 <div class="l_about">
                     <p>
@@ -382,7 +382,7 @@
                 </div>
             </div>
             <div class="contact_box_02">
-                <h1>Let’s
+                <p class="end_text">Let’s
                     <a href="mailto:yang9869@daum.net" class="mail_icon hvr-wobble-horizontal">
                         <svg xmlns="http://www.w3.org/2000/svg" width="139" height="104" viewBox="0 0 139 104" fill="none">
                             <rect x="2" y="2" width="134.983" height="100" stroke="#93C3DE" stroke-width="4" stroke-linejoin="round"/>
@@ -396,7 +396,7 @@
                             <path d="M4.93525 68.8333L0.166504 64.0646L56.7103 7.52084H23.329V0.708344H68.2915V45.6708H61.479V12.2896L4.93525 68.8333Z" fill="#93C3DE"/>
                         </svg>
                     </i>
-                </h1>
+                </p>
             </div>
         </section>
     </main>
@@ -619,7 +619,7 @@
         },1
     );
 
-    gsap.from(".contact_wrap .contact_box_02 h1", {
+    gsap.from(".contact_wrap .contact_box_02 .end_text", {
         scrollTrigger: {
             trigger: ".contact_wrap",
             start: "top center",
