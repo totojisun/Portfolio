@@ -166,12 +166,13 @@ header .nav_con{
 	width:1.8rem;
 }
 
-.nav_links .nav_icons img{
-	width:2.4rem;
+.nav_links .nav_icons {
+	display: flex;
+	gap:2.4rem;
 }
 
-.mp_icon {
-	margin-right:2.4rem;
+.nav_links .nav_icons img{
+	width:2.4rem;
 }
 
 .nav_toggleBtn {
@@ -538,7 +539,7 @@ header .nav_con{
 	margin-top:1.7rem;
 }
 
-.slide_box .slide .left_box .slide_moveBtn {
+.slide_box .slide .slide_moveBtn {
 	font-size:2.2rem;
 	letter-spacing: -.075rem;
 	display: inline-block;
@@ -548,7 +549,7 @@ header .nav_con{
 	margin-top:5rem;
 }
 
-.slide_box .slide .left_box .slide_moveBtn img {
+.slide_box .slide .slide_moveBtn img {
 	width:2rem;
 	margin-left:.5rem;
 	display:inline-block;
@@ -1458,8 +1459,8 @@ footer {
 		width:14rem;
 	}
 
-	.nav_links .nav_icons .mp_icon {
-		margin-right:1.8rem;
+	.nav_links .nav_icons {
+		gap:1.8rem;
 	}
 
 	.nav_links .nav_icons img{
@@ -1491,7 +1492,7 @@ footer {
 		font-size:1.7rem;
 	}
 
-	.slide_box .slide .left_box .slide_moveBtn {
+	.slide_box .slide .slide_moveBtn {
 		font-size:1.8rem;
 		padding:1.3rem 2rem;
 		margin-top:4rem;
