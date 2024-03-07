@@ -243,6 +243,7 @@ main {
 
 .intro_wrap .intro_title .line {
     width:0;
+    display: block;
     animation: line_move 1.5s ease 1.5s forwards;
     -webkit-animation: line_move 1.5s ease 1.5s forwards;
     height:2px;
@@ -693,7 +694,7 @@ main {
     margin:0 5vw;
 }
 
-.contact_wrap .contact_box_02 h1 {
+.contact_wrap .contact_box_02 .end_text {
     display: flex;
     align-items: center;
     font-family: "raleway";
