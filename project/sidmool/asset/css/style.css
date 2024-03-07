@@ -513,13 +513,13 @@ header .nav_con{
 	padding:9rem 0 0 19rem;
 }
 
-.slide_box .slide .left_box h1 {
+.slide_box .slide .left_box .title span{
 	font-size: 4.5rem;
 	letter-spacing: -.175rem;
 	font-weight: 500;
 }
 
-.slide_box .slide .left_box h2 {
+.slide_box .slide .left_box .text p {
 	font-size: 2.7rem;
 	letter-spacing: -.1rem;
 	margin-top:3.5rem;
@@ -558,11 +558,11 @@ header .nav_con{
 	background:url(../images/slide_product_img01.png) center right 20% no-repeat #ADDCC8;
 }
 
-.slide_box .slide01 .left_box h1 {
+.slide_box .slide01 .left_box .title span {
 	color:#7A6652;
 }
 
-.slide_box .slide01 .left_box h2 {
+.slide_box .slide01 .left_box .text p {
 	color:#558171;
 }
 
@@ -574,11 +574,11 @@ header .nav_con{
 	background:url(../images/slide_product_img02.png) bottom right 30% no-repeat #F3E6D9;
 }
 
-.slide_box .slide02 .left_box h1 {
+.slide_box .slide02 .left_box .title span {
 	color:#AC6D2F;
 }
 
-.slide_box .slide02 .left_box h2 {
+.slide_box .slide02 .left_box .text p {
 	color:#745F4C;
 }
 
@@ -590,11 +590,11 @@ header .nav_con{
 	background:url(../images/slide_product_img03.png) bottom 5% right 20% no-repeat #C1D9F0;
 }
 
-.slide_box .slide03 .left_box h1 {
+.slide_box .slide03 .left_box .title span {
 	color:#3371AD;
 }
 
-.slide_box .slide03 .left_box h2 {
+.slide_box .slide03 .left_box .text p {
 	color:#3A70A7;
 }
 
@@ -849,7 +849,7 @@ section {
 	position: relative;
 }
 
-.review_box .review_text dl h3{
+.review_box .review_text dl span{
 	font-size:2.4rem;
 	letter-spacing: -.075rem;
 	line-height: 1.5;
@@ -1343,6 +1343,11 @@ footer {
 }
 
 @media screen and (max-width: 900px) {
+
+	.slide_box .slide .left_box .title span {
+		font-size:4rem;
+	}
+
 	.slide_box .slide01 {
 		background-position: bottom 20% right 20%;
 	}
@@ -1470,19 +1475,19 @@ footer {
 		left:6%;
 	}
 
-	.slide_box .slide .left_box h1 {
+	.slide_box .slide .left_box .title span {
 		font-size:2.5rem;
 		letter-spacing:-.075rem;
 	}
 
-	.slide_box .slide .left_box h2 {
+	.slide_box .slide .left_box .text p {
 		font-size:1.8rem;
 		letter-spacing:-.05rem;
 		line-height: 1.5;
 		margin-top:2rem;
 	}
 
-	.slide_box .slide .left_box p {
+	.slide_box .slide .left_box .tag_area p {
 		font-size:1.7rem;
 	}
 
@@ -1637,7 +1642,7 @@ footer {
 		width:10rem;
 	}
 
-	.review_box .review_text dl h3 {
+	.review_box .review_text dl span {
 		font-size:1.8rem;
 	}
 
