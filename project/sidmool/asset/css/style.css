@@ -470,6 +470,15 @@ header .nav_con{
 .slide_box {
 	overflow: hidden;
 	border-radius: 3rem;
+	opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s ease;
+    -webkit-transition: opacity 1s ease;
+}
+
+.slide_box.slick-initialized {
+	visibility: visible;
+    opacity: 1;
 }
 
 .slide_box .slick-dots {
