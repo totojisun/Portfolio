@@ -1103,7 +1103,15 @@ $('.slide_box').slick({
   slidesToShow: 1,
   autoplay: true,
   autoplaySpeed: 4000,
-  useTransform: false
+  useTransform: false,
+  responsive: [ // 반응형 웹 구현 옵션
+					{  
+						breakpoint: 900,
+						settings: {
+							useTransform: true
+						} 
+					}
+				]
 });
 
 // 신제품 슬라이드
